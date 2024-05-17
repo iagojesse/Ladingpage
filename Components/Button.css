@@ -1,0 +1,43 @@
+button,
+.btn-efeito {
+  padding: 10px 235px;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #555;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover,
+.btn-efeito:hover {
+  background-color: #777;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-container button {
+  padding: 10px 50px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espaço entre os botões */
+  margin-top: 8px; /* Espaço acima dos botões */
+}
+
+.button-group button {
+  padding: 16px 40px; /* Tamanho dos botões */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+.button-group button:hover {
+  background-color: #777; /* Cor mais clara no hover */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Sombra para efeito 3D */
+}
